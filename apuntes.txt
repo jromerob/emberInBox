@@ -1,0 +1,4 @@
+METERIAL DESIGN
+---------------
+Incluído el componente  https://emberobserver.com/addons/ember-paper
+Demo de componentes material: http://miguelcobain.github.io/ember-paper/release-1/
