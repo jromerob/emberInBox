@@ -1,4 +1,27 @@
-METERIAL DESIGN
+CONFIGURACION NETBEANS
+----------------------
+nitially Netbeans was not highlighting handlebar templates properly, but I modified that from Tools > Options > Miscellaneous > Files and added HTML Files (text/html) for hbs
+
+MATERIAL DESIGN
 ---------------
 Incluído el componente  https://emberobserver.com/addons/ember-paper
 Demo de componentes material: http://miguelcobain.github.io/ember-paper/release-1/
+
+GENARACION DE OBJETOS
+---------------------
+
+Plantilla : ember generate template application
+Ruta: ember generate route scientists
+componente: ember generate component people-list 
+
+Generar nueva página "programadores"
+1º generar ruta : ember generate route programadores ( genera ruta y template)
+2º Modificar el modelo para devolver un array de programadores ( nombres )
+3º usar el componente creado people-list que lista un array de personas recibido como atributo
+
+GENERAR PROYECTO PARA PRODUCCION
+--------------------------------
+ember build --env production
+Empaqueta todo y lo genera en dist/
+
+
